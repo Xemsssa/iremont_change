@@ -1,0 +1,15 @@
+.repairs__block {
+    /* border: 1px solid red; */
+    /* padding: 0px; */
+    /* margin: -15px; */
+}
+
+.repairs__item {
+    padding:10px;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .repairs__item {
+        width: 45%;
+} 
