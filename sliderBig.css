@@ -1,0 +1,17 @@
+.offers {
+    /* display: none; */
+    overflow: hidden;
+    border-bottom: 1px solid #dcdcdc;
+    background: url(../img/assets/offers/bg-offers.png) center/cover no-repeat #1c1c1c;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+@media (min-width:993px) {
+    .offers {
+        display: block
+    }
+}

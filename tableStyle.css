@@ -1,0 +1,12 @@
+
+.sect__listItemTab, .section, #section_1 {
+    border-radius: 20px;
+}
+
+.sect__row>div, .sect__type{
+    padding: 5px 15px;
+}
+
+.sect__listItemTab.active {
+    border-radius: 210px;
+}
