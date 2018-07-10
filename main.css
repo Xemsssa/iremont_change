@@ -3872,8 +3872,17 @@ body {
     position: relative;
     z-index: 2;
     margin: 0 auto;
-    max-width: 700px;
+/*     padding: 0 40px; */
+/*     max-width: 700px; */
     height: 460px;
+}
+
+
+@media (max-width: 1220px) {
+    .offers .offers__item-layout {
+/*         display:  none; */
+        padding: 0 20px;
+    }
 }
 
 .offers__item-layout:after,
@@ -5120,9 +5129,9 @@ body {
 
 @media (max-width: 425px) {
     .header {
-/*         display: none; */
         position: fixed;
         width: 100%;
+        z-index: 10000;
     }
 
     .services {
@@ -5161,23 +5170,49 @@ body {
 
 .header__link a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    background: #ffd74d;
+    padding: 8px 10px;
+    border-radius: 210px;
 }
 
 
 @media(max-width: 993px ) {
+
+    .header {
+        /* border: 1px solid green; */
+    }
+
+    .container {
+        width: 100%;
+    }
+
     .header__link{
         /* block */
         /* display: block; */
-        /* width: 100%; */
         /* text-align: center; */
+        
+        position: absolute;
+        /* left: 0%; */
+        /* left: 33%; */
+        /* left: 33%; */
 
         /* flext */
         display: flex;
+        align-items: center;
         justify-content: center;
+        /* width: 100%; */
         
-        text-align: center;
-        padding-top: 12px;
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 50px;
+
+        /* padding-top: 12px; */
+    }
+
+    .header__link a {
+        position:relative;
+       `left: 0;
     }
 }
 
@@ -5522,6 +5557,7 @@ body {
 .reviews_from_icon{
     display: inline;
 }
+
 .button_mpb_slider{
     cursor: pointer;
     border: none;
