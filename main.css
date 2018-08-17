@@ -3244,6 +3244,14 @@ body {
     list-style: none
 }
 
+.menu__list-button {
+    border: none;
+    margin-top: 4px;
+    width: auto !important;
+    padding: 5px 20px !important; 
+
+}
+
 .footer {
     position: relative;
     padding: 55px 0;
@@ -3936,7 +3944,6 @@ body {
 .offers__link-more {
    display: inline-block;
    padding: 8px 34px 8px;
-   w;
    width: 218px;
    border: 1px solid #997b14;
    border-radius: 29px;
@@ -5168,7 +5175,7 @@ body {
     display: none;
 }
 
-.header__link a {
+.header__link a, .menu__list-button {
     text-decoration: none;
     color: #000;
     background: #ffd74d;
