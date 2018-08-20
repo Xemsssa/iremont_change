@@ -3244,14 +3244,6 @@ body {
     list-style: none
 }
 
-.menu__list-button {
-    border: none;
-    margin-top: 4px;
-    width: auto !important;
-    padding: 5px 20px !important; 
-
-}
-
 .footer {
     position: relative;
     padding: 55px 0;
@@ -3944,6 +3936,7 @@ body {
 .offers__link-more {
    display: inline-block;
    padding: 8px 34px 8px;
+   w;
    width: 218px;
    border: 1px solid #997b14;
    border-radius: 29px;
@@ -5175,7 +5168,7 @@ body {
     display: none;
 }
 
-.header__link a, .menu__list-button {
+.header__link a {
     text-decoration: none;
     color: #000;
     background: #ffd74d;
@@ -5564,7 +5557,6 @@ body {
 .reviews_from_icon{
     display: inline;
 }
-
 .button_mpb_slider{
     cursor: pointer;
     border: none;
@@ -5574,4 +5566,66 @@ body {
     background-color: #f9dd7b;
     font-weight: 700;
     font-size: 20px;
+}
+.menu__list-button {
+    border: none;
+    margin-top: 6px;
+    width: auto !important;
+    padding: 5px 20px !important; 
+
+}
+.news-detail .detail_picture {
+	max-width: 300px;
+}
+div.news-detail
+{
+  word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+  float:left;
+  margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+  color:#486DAA;
+}
+
+
+h2.ttu-center {
+/*   padding: 0; */
+/*   padding-bottom: 20px; */
+}
+
+.flex-article {
+  flex-directions: colums;
+}
+
+.news-detail {
+/*   width: 100%; */
+}
+
+@media(min-width: 1200px) {
+  .flex-article {
+    display:flex;
+    flex-directions: rows;
+  }
+
+  .news-detail {
+    width: 50%;
+  }
+
+  .table-price-list-mpb{
+    width: 50%;
+    padding-left:20px;
+  }
+}
+
+.sect__listItemTab  {
+/*   text-align: center; */
+}
+.andrei_mpb {
+/*     display:none; */
+    padding: 0;
+      padding-bottom: 20px;
 }
